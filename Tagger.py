@@ -54,7 +54,7 @@ async def help(event):
 
 
 
-Werab_tag_Bot Size Göre:\n\n📌 5-li tağ\n📌 Emoji tağ\n📌 Tək Tağ\n📌 Yalnız Yöneticileri tağ eləmək\n📌\n\n Belə Çox özellikli @Werab_Tag_Bot 'u grubunuza Admin olarak ekleyip rahatlıqla , tağ ata bilərsiz **"
+Werab_tag_Bot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tek Tag\n📌 Yalnız Yöneticileri tag etmek\n📌\n\n Belə Çox özellikli @LuciTaggerBot 'u grubunuza Admin olarak ekleyip rahatlıqla , tağ ata bilərsiz **"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Botu Gruba Ekle➕', 'https://t.me/werab_tag_bot?startgroup=a')],
