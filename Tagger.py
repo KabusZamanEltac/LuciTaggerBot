@@ -24,7 +24,7 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**🌀Werab_tag_bot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
+  await event.reply("**🌀Werab_tag_bot**\n ile Qrupunuzdakı Bütün Userlərə Tağ Ata bilərəm \nMəlumat üçün =======> /help yazın**",
                     buttons=(
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/Werab_tag_bot?startgroup=a')],
@@ -36,7 +36,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**🌀 Werab_tag_bot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
+  helptext = "**🌀 Werab_tag_bot Komutları**\n\n**/tag <səbəb> - 5-li tağ Atar**\n\n**/etag <səbəb> - Emoji ile tağ edər**\n\n**/tektag səbəb - Üyeleri Tək Tək tağ edərəm**\n\n**/admins səbəb - Adminlri Tək Tək Tağ Eder**\n\n**/start - botu başlatır**"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/werab_tag_bot?startgroup=a')],
@@ -49,7 +49,12 @@ async def help(event):
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
 async def help(event):
-  helptext = "**Çok özellikleri Etiket Botu Bulmaya Çalışan Grub Sahibleri @Werab_tag_Bot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri etiketleme\n📌\n\n Böyle Çok özellikli @LuciTaggerBot 'u grubunuza yönetici olarak ekleyip rahatlıkla üyelir , etiket ata bilirsiz **"
+  helptext = "**Çok özellikleri User Botu Bulmaya Çalışan Grub Sahibleri @
+
+
+
+
+Werab_tag_Bot Size Göre:\n\n📌 5-li tağ\n📌 Emoji tağ\n📌 Tək Tağ\n📌 Yalnız Yöneticileri tağ eləmək\n📌\n\n Böyle Çok özellikli @Werab_Tag_Bot 'u grubunuza Admin olarak ekleyip rahatlıqla , tağ ata bilərsiz **"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Botu Gruba Ekle➕', 'https://t.me/werab_tag_bot?startgroup=a')],
