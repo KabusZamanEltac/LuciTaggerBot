@@ -24,13 +24,13 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**🌀Werab_tag_bot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
+  await event.reply("**🌀Werab_tag_bot**\n ile Qrupunuzda  Hər Kəsi Tag Edə Bilərəm Çağırdığım Hər Kəs Anında Qrupa Gələr \nKomutlar için =======> /help yazın**",
                     buttons=(
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/werab_tag_bot?startgroup=a')],
-                      [Button.url('ASO User Bot🛠', 'https://t.me/werabsupport')],
-                      [Button.url('ASO Fban📣', 'https://t.me/ASO_Fed')],
-		      [Button.url('Sahibi👨🏻‍💻', 'https://t.me/ismiyev95')],
+                      [Button.url('𓆩𓄂𝙰𝚂𝙾|🇦🇿 𝐑Ə𝐒𝐌İ🛠', 'https://t.me/ASOresmi')],
+                      [Button.url('𓆩𓄂𝙰𝚂𝙾|🇦🇿𝐏𝐀𝐘𝐓𝐀𝐗𝐓 𝐐𝐑𝐔𝐏📣', 'https://t.me/WerabliAnlar')],
+		      [Button.url('𝐒𝐀𝐇İ𝐁İ𝐌👨🏻‍💻', 'https://t.me/ismiyev95')],
                     ),
                     link_preview=False
                    )
@@ -40,9 +40,9 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/werab_tag_bot?startgroup=a')],
-                      [Button.url('ASO User Bot👨‍💻', 'https://t.me/WerabSupport')],
-                      [Button.url('ASO Fban🔖', 'https://t.me/ASO_Fed')],
-		      [Button.url('Sahibi🧑‍🔧', 'https://t.me/ismiyev95')],
+                      [Button.url('𓆩𓄂𝙰𝚂𝙾|🇦🇿𝐑Ə𝐒𝐌İ🇦🇿👨‍💻', 'https://t.me/ASOresmi')],
+                      [𓆩𓄂𝙰𝚂𝙾|🇦🇿 𝐏𝐀𝐘𝐓𝐀𝐗𝐓 𝐐𝐑𝐔𝐏🔖', 'https://t.me/WerabliAnlar')],
+		      [Button.url('𝐒𝐀𝐇İ𝐁İ𝐌🧑‍🔧', 'https://t.me/ismiyev95')],
                     ),
                     link_preview=False
                    )
