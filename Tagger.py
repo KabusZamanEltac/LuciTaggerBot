@@ -57,11 +57,11 @@ async def start(event):
                    
 
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/Werab_tag_bot?startgroup=a')],
-                      [Button.url('Werab Qoxulu🛠', 'https://t.me/WerabliAnlar')],
+                      [Button.url('ASO PAYTAXT QRUP🛠', 'https://t.me/WerabliAnlar')],
 
-                      [Button.url('Werab Support📣', 'https://t.me/WerabSupport')],
+                      [Button.url('ASO User Bot📣', 'https://t.me/WerabSupport')],
 
-		      [Button.url('Sahibi👨🏻‍💻', 'https://t.me/ismiyev95')],
+		      [Button.url('Sahibim👨🏻‍💻', 'https://t.me/ismiyev95')],
 
                     ),
 
@@ -81,11 +81,11 @@ async def help(event):
 
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/werab_tag_bot?startgroup=a')],
 
-                      [Button.url('Werab Qoxulu👨‍💻', 'https://t.me/WerabliAnlar')],
+                      [Button.url('ASO PAYTAXT QRUP👨‍💻', 'https://t.me/WerabliAnlar')],
 
-                      [Button.url('Werab Support🔖', 'https://t.me/WerabSupport')],
-
-		      [Button.url('Sahibi🧑‍🔧', 'https://t.me/ismiyev95')],
+                      [ Düymə . url ( 'ASO User Bot 🔖' , 'https://t.me/WerabSupport' )],
+. U
+		      [ Düymə . url ( 'Sahibim🧑‍🔧' , 'https://t.me/ismiyev95' )],
 
                     ),
 
@@ -109,7 +109,7 @@ async def help(event):
 
 
 
-Werab_tag_Bot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tek Tag\n📌 Yalnız Yöneticileri tag etmek\n📌\n\n Belə Çox özellikli @LuciTaggerBot 'u grubunuza Admin olarak ekleyip rahatlıqla , tağ ata bilərsiz **"
+Werab_tag_Bot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tek Tag\n📌 Yalnız Yöneticileri tag etmek\n📌\n\n Belə Çox özellikli @Werab_Tag_Bot 'u grubunuza Admin olarak ekleyip rahatlıqla , tağ ata bilərsiz **"
 
   await event.reply(helptext,
 
@@ -213,7 +213,7 @@ async def mentionall(event):
 
       if event.chat_id not in anlik_calisan:
 
-        await event.respond("** Durdum👀**")
+        await event.respond("**durdum🙄 @ASOresmi**")
 
         return
 
@@ -345,7 +345,7 @@ async def mentionall(event):
 
       if event.chat_id not in anlik_calisan:
 
-        await event.respond("Durdum\n\n**Burda sizində reklamınız ola bilər 👉 @WerabliAnlar**✅")
+        await event.respond("Durdum🌹\n\n**Burda sizində reklamınız ola bilər 👉 @WerabliAnlar**✅")
 
         return
 
@@ -381,7 +381,7 @@ async def mentionall(event):
 
       if event.chat_id not in anlik_calisan:
 
-        await event.respond("Durdum👀")
+        await event.respond("Durdum👀 @ASOresmi")
 
         return
 
@@ -397,7 +397,7 @@ async def mentionall(event):
 
 
 
-@client.on(events.NewMessage(pattern='^(?i)/Dur'))
+@client.on(events.NewMessage(pattern='^(?i)/dur'))
 
 async def cancel(event):
 
@@ -409,7 +409,7 @@ async def cancel(event):
 
 
 
-@client.on(events.NewMessage(pattern="^/1tag ?(.*)"))
+@client.on(events.NewMessage(pattern="^/tektag ?(.*)"))
 
 async def mentionall(event):
 
@@ -451,11 +451,11 @@ async def mentionall(event):
 
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
 
-    return await event.respond("Başlamağ Üçün Səbəb Yazın❗️")
+    return await event.respond("Xaiş Edirəm Başlamaq Üçün Bir Səbəb Yaz ❗️")
 
   else:
 
-    return await event.respond("**Işleme başlamağım için sebeb yazın..**")
+    return await event.respond("**Gozunu Sevim Bir Səbəb Yaz🙈..**")
 
   
 
@@ -475,7 +475,7 @@ async def mentionall(event):
 
       if event.chat_id not in tekli_calisan:
 
-        await event.respond("**Dayandırıldı\n\n**Burda sizin reklamınız ola bilir @werabliAnlar**✅****")
+        await event.respond("**Dayandırıldı\n\n**Burda sizin reklamınız ola bilir @WerabliAnlar**✅****")
 
         return
 
@@ -511,7 +511,7 @@ async def mentionall(event):
 
       if event.chat_id not in tekli_calisan:
 
-        await event.respond("Tağ artığ Durdu\n\n**Burda sizində reklamınız ola bilər 👉 @WerabliAnlar**✅**")
+        await event.respond("Durdum🙈\n\n**Burda sizində reklamınız ola bilər 👉 @WerabliAnlar**✅**")
 
         return
 
@@ -541,7 +541,7 @@ async def cancel(event):
 
 
 
-@client.on(events.NewMessage(pattern="^/admins ?(.*)"))
+@client.on(events.NewMessage(pattern="^/admins?(.*)"))
 
 async def mentionall(tagadmin):
 
