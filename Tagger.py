@@ -59,7 +59,7 @@ async def start(event):
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/Werab_tag_bot?startgroup=a')],
                       [Button.url('ASO PAYTAXT QRUP🛠', 'https://t.me/WerabliAnlar')],
 
-                      [Button.url('ASO User Bot📣', 'https://t.me/WerabSupport')],
+                      [Button.url('ASO RƏSMİ📣', 'https://t.me/ASOresmi')],
 
 		      [Button.url('Sahibim👨🏻‍💻', 'https://t.me/ismiyev95')],
 
@@ -83,7 +83,7 @@ async def help(event):
 
                       [Button.url('ASO PAYTAXT QRUP👨‍💻', 'https://t.me/WerabliAnlar')],
 
-                      [ Düymə . url ( 'ASO User Bot 🔖' , 'https://t.me/WerabSupport' )],
+                      [ Düymə . url ( 'ASO RƏSMİ 🔖' , 'https://t.me/ASOresmi' )],
 . U
 		      [ Düymə . url ( 'Sahibim🧑‍🔧' , 'https://t.me/ismiyev95' )],
 
