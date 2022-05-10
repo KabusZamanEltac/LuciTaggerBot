@@ -99,7 +99,7 @@ async def help(event):
 
 async def help(event):
 
-  helptext = "**Çok özellikleri User Botu Tapmağa Çalışan Grub Sahibleri @
+  helptext = "**Çok özellikleri User Botu Tapmaqa Çalışan Grub Sahibleri
 
 
 
