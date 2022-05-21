@@ -50,16 +50,16 @@ tekli_calisan = []
 
 async def start(event):
 
-  await event.reply("**🌀Werab_tag_bot**\n ile Qrupunuzdakı Bütün Userlərə Tağ Ata bilərəm \nMəlumat üçün =======> /help yazın**",
+  await event.reply("**🇦🇿 ASO tagger bot**\n ile Qrupunuzdakı Bütün Userlərə Tağ Ata bilərəm \nMəlumat üçün =======> /kömək yazın @ASOSONZİRVE **",
 
                     buttons=(
 
                    
 
-		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/Werab_tag_bot?startgroup=a')],
-                      [Button.url('ASO PAYTAXT QRUP🛠', 'https://t.me/WerabliAnlar')],
+		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/ASOtagger_bot?startgroup=a')],
+                      [Button.url('ASO Söhbət Qrupu', 'https://t.me/ASOSONZİRVE')],
 
-                      [Button.url('ASO RƏSMİ📣', 'https://t.me/ASOresmi')],
+                      [Button.url('ASO Rəsmi📣', 'https://t.me/ASOresmi')],
 
 		      [Button.url('Sahibim👨🏻‍💻', 'https://t.me/ismiyev95')],
 
@@ -69,11 +69,11 @@ async def start(event):
 
                    )
 
-@client.on(events.NewMessage(pattern="^/help$"))
+@client.on(events.NewMessage(pattern="^/komek$"))
 
 async def help(event):
 
-  helptext = "**🌀 Werab_tag_bot Komutları**\n\n**/tag <səbəb> - 5-li tağ Atar**\n\n**/etag <səbəb> - Emoji ile tağ edər**\n\n**/1tag səbəb - Useleri Tək Tək tağ edər**\n\n**/admins səbəb - Adminlri Tək Tək Tağ Eder**\n\n**/start - botu başladar**"
+  helptext = "**🇦🇿 ASO tagger bot Komutları**\n\n**/tag <səbəb> - 5-li tağ Atar**\n\n**/etag <səbəb> - Emoji ile tağ edər**\n\n**/1tag səbəb - Useleri Tək Tək tağ edər**\n\n**/admins səbəb - Adminlri Tək Tək Tağ Eder**\n\n**/start - botu başladar**"
 
   await event.reply(helptext,
 
@@ -81,9 +81,9 @@ async def help(event):
 
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/werab_tag_bot?startgroup=a')],
 
-                      [Button.url('ASO PAYTAXT QRUP👨‍💻', 'https://t.me/WerabliAnlar')],
+                      [Button.url('ASO Söhbət Qrupu👨‍💻', 'https://t.me/WerabliAnlar')],
 
-                      [ Düymə . url ( 'ASO RƏSMİ 🔖' , 'https://t.me/ASOresmi' )],
+                      [ Düymə . url ( 'ASO Rəsmi 🔖' , 'https://t.me/ASOresmi' )],
 . U
 		      [ Düymə . url ( 'Sahibim🧑‍🔧' , 'https://t.me/ismiyev95' )],
 
@@ -109,13 +109,13 @@ async def help(event):
 
 
 
-Werab_tag_Bot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tek Tag\n📌 Yalnız Yöneticileri tag etmek\n📌\n\n Belə Çox özellikli @Werab_Tag_Bot 'u grubunuza Admin olarak ekleyip rahatlıqla , tağ ata bilərsiz **"
+ASOtagger_Bot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tek Tag\n📌 Yalnız Yöneticileri tag etmek\n📌\n\n Belə Çox özellikli @Werab_Tag_Bot 'u grubunuza Admin olarak ekleyip rahatlıqla , tağ ata bilərsiz **"
 
   await event.reply(helptext,
 
                     buttons=(
 
-                      [Button.url('Botu Gruba Ekle➕', 'https://t.me/werab_tag_bot?startgroup=a')],
+                      [Button.url('Botu Gruba Ekle➕', 'https://t.me/ASOtagger_bot?startgroup=a')],
 
                     ),
 
@@ -249,7 +249,7 @@ async def mentionall(event):
 
       if event.chat_id not in anlik_calisan:
 
-        await event.respond("Işlem Başarıyla Durdum\n\n**Burda sizin reklamınız ola bilər 👉 @WerabliAnlarr**✅")
+        await event.respond("Işlem Başarıyla Durdum\n\n**Burda sizin reklamınız ola bilər 👉 @ASOSONZİRVE **✅")
 
         return
 
@@ -345,7 +345,7 @@ async def mentionall(event):
 
       if event.chat_id not in anlik_calisan:
 
-        await event.respond("Durdum🌹\n\n**Burda sizində reklamınız ola bilər 👉 @WerabliAnlar**✅")
+        await event.respond("Durdum🌹\n\n**Burda sizində reklamınız ola bilər 👉 @ASOSONZİRVE**✅")
 
         return
 
@@ -475,7 +475,7 @@ async def mentionall(event):
 
       if event.chat_id not in tekli_calisan:
 
-        await event.respond("**Dayandırıldı\n\n**Burda sizin reklamınız ola bilir @WerabliAnlar**✅****")
+        await event.respond("**Dayandırıldı\n\n**Burda sizin reklamınız ola bilir @ASOSONZİRVE **✅****")
 
         return
 
@@ -511,7 +511,7 @@ async def mentionall(event):
 
       if event.chat_id not in tekli_calisan:
 
-        await event.respond("Durdum🙈\n\n**Burda sizində reklamınız ola bilər 👉 @WerabliAnlar**✅**")
+        await event.respond("Durdum🙈\n\n**Burda sizində reklamınız ola bilər 👉 @ASOSONZİRVE**✅**")
 
         return
 
